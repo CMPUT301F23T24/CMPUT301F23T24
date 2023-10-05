@@ -1,9 +1,9 @@
 package com.example.cmputlab4;
 
 public abstract class Shape {
-    Integer x;
-    Integer y;
-    String color = "blue";
+    private Integer x;
+    private Integer y;
+    String color = "green";
 
     public Shape(Integer x, Integer y) {
         this.x = x;
