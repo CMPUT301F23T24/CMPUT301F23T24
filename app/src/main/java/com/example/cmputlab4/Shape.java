@@ -8,4 +8,9 @@ public abstract class Shape {
         this.x = x;
         this.y = y;
     }
+
+    public abstract double area();
+
+    public abstract double perimeter();
 }
+
